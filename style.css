@@ -34,8 +34,8 @@ Body {
 }
 
 .main-card {
-  max-width: 1080px;
-  min-height: 446px;
+  max-width: 67.5rem;
+  min-height: 27.875rem;
   display: flex;
   border-radius: 1rem;
   overflow: hidden;
@@ -128,10 +128,10 @@ Body {
 }
 
 /* //////////// MOBILE /////////////// */
-@media (max-width: 480px) {
+@media (min-width: 30rem) {
   .main-card {
-    max-width: 375px;
-    min-height: 956px;
+    max-width: 23.4375rem;
+    min-height: 59.75rem;
     display: flex;
     flex-direction: column;
     align-items: center;
